@@ -53,17 +53,6 @@ public class Corp {
         this.viteza = this.viteza_new;
         x.viteza = x.viteza_new;
 
-        /*
-        System.out.println("corp1: viteza =  " + this.viteza.i + " " + this.viteza.j + " \n" +
-            "viteza_new = "+ this.viteza_new.i + "  " + this.viteza_new.j);
-
-        System.out.println("corp2: viteza =  " + x.viteza.i + " " + x.viteza.j + " \n" +
-                "viteza_new = "+ x.viteza_new.i + "  " + x.viteza_new.j);
-
-        System.out.println("c21 = (" + this.viteza.i + "-"+ x.viteza.i + ")*(" + this.pozitie.i + "-" + x.pozitie.i +")+("+ this.viteza.j+"-"+x.viteza.j+")*("+this.pozitie.j+ "-" +x.pozitie.j+")");
-        System.out.println("x31 = " + Math.pow(this.pozitie.i-x.pozitie.i,2) +"+"+ Math.pow(this.pozitie.j-x.pozitie.j,2));
-        System.out.println("c21/c31 = " + c21 + "/" + c31 + "=" +c21/c31);
-        */
     }
 
 
