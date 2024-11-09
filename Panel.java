@@ -66,7 +66,7 @@ public class Panel extends JPanel implements ActionListener{
         for(Corp corp : corpuri) {
 
             if( corp.pozitie.i - corp.raza >= width || corp.pozitie.i < x_poz+2){
-                corp.viteza.i = -corp.viteza.i;                                     // Ciocnirea plastica cu marginea dreptunghiului
+                corp.viteza.i = -corp.viteza.i;                                     // Ciocnirea plastica cu marginea cutiei
             }
             if(corp.pozitie.j - corp.raza >= height || corp.pozitie.j < y_poz+2){
                 corp.viteza.j = -corp.viteza.j;
